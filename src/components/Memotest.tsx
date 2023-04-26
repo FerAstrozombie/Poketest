@@ -4,7 +4,6 @@ import withReactContent from 'sweetalert2-react-content'
 
 const MySwal = withReactContent(Swal)
 
-
 const IMAGENES = [
     "./imagenes/pikachu.png",
     "./imagenes/bullbasaur.png",
@@ -33,7 +32,7 @@ export default function Memotest() {
 
     useEffect(() => {
         if (guessed.length === IMAGENES.length) {
-            Swal.fire({
+            MySwal.fire({
                 title: 'Felicidades!!! Has ganado',
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
