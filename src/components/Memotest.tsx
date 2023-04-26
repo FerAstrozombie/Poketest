@@ -41,7 +41,7 @@ export default function Memotest() {
                     popup: 'animate__animated animate__fadeOutUp'
                 }
             })
-            location.reload()
+            setTimeout(() => location.reload(), 3000)
         }
     }, [guessed])
     return (
