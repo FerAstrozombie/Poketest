@@ -33,8 +33,11 @@ body {
   margin: auto;
   display: flex;
   place-items: center;
-  max-width: 800px;
+  max-width: 855px;
   min-height: 100vh;
+  background-image: url("/public/imagenes/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #root{
   width: 100%;
